@@ -35,19 +35,20 @@ Powered by Hydejack v8.1.1 <https://hydejack.com/>
 
   
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Datenschutzerklärung | Continuo – kontinuierlich…</title>
+<title>Third Party Scripts (v6.3) | Continuo – kontinuierlich…</title>
 <meta name="generator" content="Jekyll v3.8.3" />
-<meta property="og:title" content="Datenschutzerklärung" />
+<meta property="og:title" content="Third Party Scripts (v6.3)" />
 <meta name="author" content="Tobias Hecker" />
 <meta property="og:locale" content="de_DE" />
-<meta name="description" content="Tobias Hecker – Continuospieler auf Laute, Cembalo &amp; Gitarre." />
-<meta property="og:description" content="Tobias Hecker – Continuospieler auf Laute, Cembalo &amp; Gitarre." />
-<link rel="canonical" href="http://localhost:4000/datenschutz/" />
-<meta property="og:url" content="http://localhost:4000/datenschutz/" />
+<meta name="description" content="Hydejack v6.3 makes including third party plugins easier." />
+<meta property="og:description" content="Hydejack v6.3 makes including third party plugins easier." />
+<link rel="canonical" href="http://localhost:4000/hydejack/2017-06-06-third-party-scripts/" />
+<meta property="og:url" content="http://localhost:4000/hydejack/2017-06-06-third-party-scripts/" />
 <meta property="og:site_name" content="Continuo – kontinuierlich…" />
-<meta property="og:image" content="http://localhost:4000/assets/img/blog/hydejack-8.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-06-06T00:00:00+02:00" />
 <script type="application/ld+json">
-{"description":"Tobias Hecker – Continuospieler auf Laute, Cembalo &amp; Gitarre.","author":{"@type":"Person","name":"Tobias Hecker"},"@type":"WebPage","url":"http://localhost:4000/datenschutz/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Tobias Hecker"},"image":"http://localhost:4000/assets/img/blog/hydejack-8.png","headline":"Datenschutzerklärung","@context":"http://schema.org"}</script>
+{"description":"Hydejack v6.3 makes including third party plugins easier.","author":{"@type":"Person","name":"Tobias Hecker"},"@type":"BlogPosting","url":"http://localhost:4000/hydejack/2017-06-06-third-party-scripts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/icons/icon.png"},"name":"Tobias Hecker"},"headline":"Third Party Scripts (v6.3)","dateModified":"2017-06-06T00:00:00+02:00","datePublished":"2017-06-06T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hydejack/2017-06-06-third-party-scripts/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -77,7 +78,7 @@ Powered by Hydejack v8.1.1 <https://hydejack.com/>
 
 
 
-<link rel="alternate" href="http://localhost:4000/datenschutz/" hreflang="de-de">
+<link rel="alternate" href="http://localhost:4000/hydejack/2017-06-06-third-party-scripts/" hreflang="de-de">
 
 <link rel="shortcut icon" href="/assets/icons/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/icons/icon.png">
@@ -162,7 +163,7 @@ Powered by Hydejack v8.1.1 <https://hydejack.com/>
   
     <main
   id="_main"
-  class="content fade-in layout-page"
+  class="content fade-in layout-post"
   role="main"
   data-color="rgb(79,177,186)"
   data-theme-color="rgb(25,55,71)"
@@ -171,46 +172,313 @@ Powered by Hydejack v8.1.1 <https://hydejack.com/>
     data-overlay
   
   >
-  <article class="page" role="article">
+  
+
+
+
+
+<article id="post-hydejack-third-party-scripts" class="page post mb6" role="article">
   <header>
-    <h1 class="page-title">Datenschutzerklärung</h1>
+    <h1 class="post-title">
+      
+        Third Party Scripts (v6.3)
+      
+    </h1>
+
+    <p class="post-date heading">
+      
+      <time datetime="2017-06-06T00:00:00+02:00">06 Jun 2017</time>
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+in <span>Hydejack</span>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </p>
+
+    
+    
+
     
 
 
 
-  <div class="hr pb0"></div>
+  
+    <p class="message" >
+      Hydejack v6.3 makes including third party plugins easier.
+
+    </p>
+  
 
 
   </header>
 
   
-<h2 id="datenschutz">Datenschutz</h2>
+    <p>This release makes including third party plugins easier.
+Until now, the push state approach to loading new pages has been interfering with embedded <code class="highlighter-rouge">script</code> tags.
+This version changes this by simulating the sequential loading of script tags on a fresh page load.</p>
 
-<p>Herzlich willkommen auf unserer Website. Als Betreiber dieser Seiten nehmen wir den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
+<p>This approach should work in a majority of cases, but can still cause problems with scripts that can’t be added more than once per page.
+If an issue can’t be resolved, there’s now the option to disable push state by setting <code class="highlighter-rouge">disable_push_state: true</code> in <code class="highlighter-rouge">config.yml</code>.</p>
 
-<p>Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.</p>
+<h2 id="whats-happening">What’s happening?</h2>
+<p>The problem is as follows:
+When the browser encounters a <code class="highlighter-rouge">script</code> tag while parsing a HTML page it will stop (possibly to make a request to fetch
+an external script) and then execute the code before continuing parsing the page
+(it’s easy to how this can make your page really slow, but that’s a different topic).</p>
 
-<p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
+<p>In any case, due of this behavior you can do things like include jQuery,
+then run code that depends on jQuery in the next script tag:</p>
 
-<h2 id="server-log-files">Server-Log-Files</h2>
-<p>Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">".../jquery.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">'#tabs'</span><span class="p">).</span><span class="nx">someJQueryFunction</span><span class="p">();</span> <span class="c1">// works</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>I’d consider this an anti-pattern for the reason mentioned above,
+but it remains common and has the advantage of being easy to understand.</p>
+
+<p>However, things break when Hydejack dynamically inserts new content into the page.
+It works fine for standard markdown content like <code class="highlighter-rouge">p</code> tags,
+but when inserting <code class="highlighter-rouge">script</code> tags the browser will execute them immediately and in parallel,
+because in most cases this is what you’d want.
+However, this means that <code class="highlighter-rouge">$('#tabs').someJQueryFunction();</code> will run while the HTTP request for jQuery is still
+in progress — and we get an error that <code class="highlighter-rouge">$</code> isn’t defined, or similar.</p>
+
+<p>From this description the solution should be obvious: Insert the <code class="highlighter-rouge">script</code> tags one-by-one,
+to simulate how they would get executed if it was a fresh page request.
+In fact this is how Hydejack is now handling things (and thanks to rxjs’ <code class="highlighter-rouge">concatMap</code> it was easy to implement),
+but unfortunately this is not a magic solution that can fix all problems:</p>
+
 <ul>
-  <li>Browsertyp und Browserversion</li>
-  <li>verwendetes Betriebssystem</li>
-  <li>Referrer URL</li>
-  <li>Hostname des zugreifenden Rechners</li>
-  <li>Uhrzeit der Serveranfrage</li>
+  <li>Some scripts may throw when running on the same page twice</li>
+  <li>Some scripts rely on the document’s <code class="highlighter-rouge">load</code> event, which has fired long before the script was inserted</li>
+  <li>unkown-unkowns</li>
 </ul>
 
-<p>Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.</p>
+<p>But what will “magically” solve all third party script problems, is disabling dynamic page loading altogether,
+for which there’s now an option.
+To make this a slightly less bitter pill to swallow,
+there’s now a CSS-only “intro” animation that looks similar to the dynamic one.
+Maybe you won’t even notice the difference.</p>
 
-<h2 id="ssl-verschlüsselung">SSL-Verschlüsselung</h2>
+<h2 id="patch-notes">Patch Notes</h2>
+<h3 id="minor">Minor</h3>
+<ul>
+  <li>Support embedding <code class="highlighter-rouge">script</code> tags in markdown content</li>
+  <li>Add <code class="highlighter-rouge">disable_push_state</code> option to <code class="highlighter-rouge">_config.yml</code></li>
+  <li>Add <code class="highlighter-rouge">disable_drawer</code> option to <code class="highlighter-rouge">_config.yml</code></li>
+  <li>Rename syntax highlighting file to <code class="highlighter-rouge">syntax.scss</code></li>
+  <li>Added <a href="../../docs/scripts.md">chapter on third party scripts</a> to documentation</li>
+</ul>
 
-<p>Diese Seite nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.</p>
+<h3 id="design">Design</h3>
+<ul>
+  <li>Add subtle intro animation</li>
+  <li>Rename “Check out X for more” to “See X for more” on welcome* page</li>
+  <li>Replace “»” with “→” in “read more”-type of links</li>
+</ul>
 
-<p>Wenn die SSL Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</p>
+<h3 id="fixes">Fixes</h3>
+<ul>
+  <li>Fix default color in gem-based theme</li>
+</ul>
 
+
+  
 </article>
+
+
+<hr class="dingbat related" />
+
+
+
+
+  
+     
+
+
+  <aside class="about related mt4 mb4" role="complementary">
+    
+    
+
+<div class="author mt4">
+  
+
+  
+
+  
+  
+  <h2  class="page-title hr">
+    Über mich
+  </h2>
+
+  <p>Tobias Hecker ist gebürtiger Chemnitzer. Im Alter 12 von Jahren bekam er seinen ersten Gitarrenunterricht bei Katharina Hunger.</p>
+
+<p class="figure">
+  <hy-img root-margin="512px"  src="assets/img/tobias.jpg" alt="" class="lead" data-width="251" data-height="249" >
+    <noscript><img data-ignore  src="assets/img/tobias.jpg" alt="" class="lead" data-width="251" data-height="249" /></noscript>
+    <span class="loading" slot="loading" hidden>
+      <span class="icon-cog"></span>
+    </span>
+  </hy-img>
+Mit der Erzlaute.</p>
+
+<p>Tobias Hecker mit Erzlaute Nach mehr als 4-jährigem Privatunterricht wechselte er an die Städtischen Musikschule Chemnitz, wo er von Günther Müller unterrichtet wurde. Tobias Hecker war dort Gitarrist in mehreren Kammermusikensembles, die Stücke Renaissance bis zur Moderne auf ihrem Spielplan hatten und somit eine musikalische Bandbreite aufweisen konnten.</p>
+
+<p>Ab 1996 nahm er Unterricht bei dem Diplompädagogen Stefan Scherf , der ihn bis 1998 weiter ausbildete und auf ein Gitarrenstudium vorbereitete. Tobias Hecker nahm in dieser Zeit an verschiedenen Wettbewerben teil, u.a. an „Jugend musiziert“ und dem Roland-Zimmer-Wettbewerb (1998 - 3.Preis).</p>
+
+<p>Von Oktober 1998 bis März 2003 studierte er an der Musikakademie Kassel Gitarre bei Michael Tröster und Wolfgang Lendle. In dieser Zeit bildete er sich auf Gitarrenkursen u.a. bei David Gallagher, Johannes Tonio Kreusch und Thomas Müller-Pering weiter.</p>
+
+<p>Von 2003–2008 studierte er in Kassel Cembalo bei Gregor Hollmann. Damit legt Tobias Hecker seinen musikalischen Schwerpunkt in den Bereich der „Alten Musik“.</p>
+
+<p>In seiner Freizeit beschäftigt er sich außerdem mit dem Lautenspiel, insbesondere auf der Arciliuto (Erzlaute), auf der er auch in dem Ensemble „Il pomo d’oro“ musiziert.</p>
+
+<p>Mit der Gitarre stand er im März 2000 beim 1. Internationalen Gitarrenwettbewerb in Esslingen in der Endrunde und erhielt zweimal einen Förderpreis der Loge-Peredur-Stiftung in Kassel.</p>
+
+<p>Tobias Hecker ist hauptsächlich kammermusikalisch aktiv. Er musiziert in verschiedenen Duobesetzungen z.B. mit Zither, Querflöte oder Mandoline. Häufiger Gast ist er in verschiedenen Orchestern (auch Barockorchestern), um den Continuopart auszufüllen. Seit 2003 arbeitet er regelmäßig mit dem in Halle lebenden Tenor Reinaldo Dopp.</p>
+
+
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:tobias@hecker-continuo.de" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://hecker-continuo.de/feed.xml" title="RSS" class="no-mark-external">
+      <span class="icon-rss2"></span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+
+  </aside>
+
+
+  
+
+  
+  
+
+  
+    
+
+
+
+
+<aside class="related mb4" role="complementary">
+  <h2 class="hr">Ähnliche Artikel</h2>
+
+  <ul class="related-posts">
+    
+      
+
+
+<li>
+  <a href="/hydejack/2018-06-30-introducing-hydejack-8/" class="h4 flip-title">
+    <span>Introducing Hydejack 8</span>
+  </a>
+  <time class="heading faded fine" datetime="2018-06-30T00:00:00+02:00">30 Jun 2018</time>
+</li>
+
+    
+      
+
+
+<li>
+  <a href="/hydejack/2018-06-01-example-content-iii/" class="h4 flip-title">
+    <span>Example Content III</span>
+  </a>
+  <time class="heading faded fine" datetime="2018-06-01T00:00:00+02:00">01 Jun 2018</time>
+</li>
+
+    
+      
+
+
+<li>
+  <a href="/hydejack/2017-11-23-example-content-ii/" class="h4 flip-title">
+    <span>Example Content II</span>
+  </a>
+  <time class="heading faded fine" datetime="2017-11-23T00:00:00+01:00">23 Nov 2017</time>
+</li>
+
+    
+  </ul>
+</aside>
+
+
+  
+
 
   
 
@@ -279,7 +547,7 @@ Powered by Hydejack v8.1.1 <https://hydejack.com/>
         <a
           id="_navigation"
           href="/datenschutz/"
-          class="sidebar-nav-item active"
+          class="sidebar-nav-item"
           
           >
           Datenschutzerklärung
