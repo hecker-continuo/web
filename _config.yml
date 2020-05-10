@@ -16,7 +16,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  de_DE
+lang:                  de-DE
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Continuo – kontinuierlich…
@@ -52,6 +52,8 @@ copyright:             >
   Alle Rechte vorbehalten.
 
 # Add links to the footer.
+menu:
+
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
 legal:
   - title:             Impressum
@@ -65,7 +67,6 @@ permalink:             /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
 paginate_path:         /page-:num/
-
 
 # Customizaton
 # ========================================================================================

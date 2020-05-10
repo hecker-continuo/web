@@ -26,6 +26,8 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
+  gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master' # For 5.x
+  # gem 'jekyll-i18n-date', github: 'uwolf/jekyll-i18n-date' , branch: 'master' # For 5.x
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

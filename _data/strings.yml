@@ -60,7 +60,7 @@ colon:                 ':'
 separator:             '|'
 category_start:        'in '
 category_spearator:    ' / '
-tag_start:             'on '
+tag_start:             'mit '
 tag_separator:         ', '
 from_to_separator:     '–'
 
@@ -68,10 +68,10 @@ from_to_separator:     '–'
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%d %b %Y'
-  related_post:        '%d %b %Y'
+  post:                '%d. %b %Y'
+  related_post:        '%d. %b %Y'
   list_group_by:       '%Y'
-  list_entry:          '%d %b'
+  list_entry:          '%d. %b'
   project:             '%Y'
   projects_group_by:   '%Y'
   resume:              '%b %Y'
