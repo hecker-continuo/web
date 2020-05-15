@@ -7,7 +7,7 @@ categories: [musik]
 tags: [kirche, video, corona]
 ---
 
-Nachdem die Online-Konzertreihe MAI.KLANG mit den großartigen Jazz-Improvisationen von Andreas “Scotty“ Böttcher am 2. Mai 2020 in der St. Jakobikirche Chemnitz ihren Anfang fand, wird sie nun am Sonnabend, dem **16. Mai 2020, um 18.00 Uhr mit einem Konzert aus der St. Andreaskirche Chemnitz-Gablenz** fortgesetzt, zu finden unter www.fb.com/KiMu.Chemnitz und [www.t1p.de/MaiKlang](www.t1p.de/MaiKlang).
+Nachdem die Online-Konzertreihe MAI.KLANG mit den großartigen Jazz-Improvisationen von Andreas “Scotty“ Böttcher am 2. Mai 2020 in der St. Jakobikirche Chemnitz ihren Anfang fand, wird sie nun am Sonnabend, dem **16. Mai 2020, um 18.00 Uhr mit einem Konzert aus der St. Andreaskirche Chemnitz-Gablenz** fortgesetzt, zu finden unter [www.fb.com/KiMu.Chemnitz](https://www.fb.com/KiMu.Chemnitz) und [www.t1p.de/MaiKlang](https://www.t1p.de/MaiKlang).
 
 Als Vokalsolist ist der Leipziger Countertenor David Erler ([https://daviderler.de/](https://daviderler.de/)) zu erleben, mit ihm musiziert die Capella Trinitatis (auf historischem Instrumentarium) in Corona-bedingt kleiner Besetzung: **Cosima Taubert** (Violine), **Carsten Hundt** (Violone), Tobias Hecker (Chitarrone) und **Sebastian Schilling** (Orgel). Es erklingen geistliche Concerte des 17. Jahrhunderts, u.a. von Samuel Capricornus und Johann Philipp Krieger.
 
