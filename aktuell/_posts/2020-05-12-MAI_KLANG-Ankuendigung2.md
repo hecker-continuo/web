@@ -4,7 +4,7 @@ image: /assets/img/blog/mai-klang.png
 description: >
   MAI.KLANG – Musik aus Chemnitzer Kirchen: zweiter Teil der Online-Konzertreihe der evangelischen Kirchgemeinden in der Region Chemnitz-Mitte
 categories: [musik]
-tags: [kirche, video, corona]
+tags: [musik, kirche, video, corona]
 ---
 
 Nachdem die Online-Konzertreihe MAI.KLANG mit den großartigen Jazz-Improvisationen von Andreas “Scotty“ Böttcher am 2. Mai 2020 in der St. Jakobikirche Chemnitz ihren Anfang fand, wird sie nun am Sonnabend, dem **16. Mai 2020, um 18.00 Uhr mit einem Konzert aus der St. Andreaskirche Chemnitz-Gablenz** fortgesetzt, zu finden unter [www.fb.com/KiMu.Chemnitz](https://www.fb.com/KiMu.Chemnitz) und [www.t1p.de/MaiKlang](https://www.t1p.de/MaiKlang).

@@ -4,7 +4,7 @@ image: /assets/img/blog/mai-klang.png
 description: >
   MAI.KLANG – Musik aus Chemnitzer Kirchen ist eine Online-Konzertreihe der evangelischen Kirchgemeinden in der Region Chemnitz-Mitte
 categories: [musik]
-tags: [kirche, video, corona]
+tags: [musik, kirche, video, corona]
 ---
 
 Am morgigen Sonnabend, dem 16. Mai 2020, wird unter [www.fb.com/KiMu.Chemnitz](https://www.facebook.com/KiMu.Chemnitz) und [www.t1p.de/MaiKlang](https://www.t1p.de/MaiKlang) das zweite Online-Konzert der Reihe MAI.KLANG - Musik aus Chemnitzer Kirchen veröffentlicht.
