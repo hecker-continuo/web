@@ -28,41 +28,19 @@ layout: base
   <hr class="sr-only"/>
 {% endif %}
 
-{% comment %}
-<p>Content: {{ content }}</p>
-<p>Categories: {{ site.categories }}</p>
-<p>Featured Categories: {{ site.featured_categories }}</p>
-<p>Tags: {{ site.tags }}</p>
-<p>Slug: {{ page.slug }}</p>
-
-{% for coll in site.collections.featured_categories %}
-  <p>Collections: {{ coll }}</p>
-{% endfor %}
-<p>Collections1: {{ site.collections | where:"label",aktuell }}</p>
-<p>Collections2: {{ site.musik }}</p>
-
-{% for category in site.categories %}
-  {% unless category.first == "aktuell" %}
-    <p>Categ: {{ category | first }}</p>
-  {% endunless %}
-{% endfor %}
-{% endcomment %}
-
 {% assign date_formats  = site.data.strings.date_formats               %}
 {% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
 {% assign list_entry    = date_formats.list_entry    | default:"%d %b" %}
 
-
-
-{% for category in site.categories %}
+{% for category in site.categories reversed %}
   {% if category.first != page.slug %}
-  <h2><a href="{{ category.url | relative_url | first }}">{{ category | first | capitalize }}</a></h2>
+  <h2><a href="/{{ category | first }}">{{ category | first | capitalize }}</a></h2>
     <ul>
     {% for post in category.last %}
       {% assign currentdate = post.date | date:list_group_by %}
       {% if currentdate != date %}
         {% unless forloop.first %}</ul>{% endunless %}
-        <h3 id="{{ list_group_by | slugify }}-{{ currentdate | slugify }}" class="hr">{{ currentdate }}</h3>
+        <h3 id="{{ category | first }}-{{ list_group_by | slugify }}-{{ currentdate | slugify }}" class="hr">{{ currentdate }}</h3>
         <ul class="related-posts">
         {% assign date = currentdate %}
       {% endif %}
@@ -72,21 +50,6 @@ layout: base
         </ul>
     </ul>
   {% endif %}
+  {% assign date = 0 %}
 {% endfor %}
 
-
-
-
-{% comment %}
-{% for post in posts %}
-  {% assign currentdate = post.date | date:list_group_by %}
-  {% if currentdate != date %}
-    {% unless forloop.first %}</ul>{% endunless %}
-    <h2 id="{{ list_group_by | slugify }}-{{ currentdate | slugify }}" class="hr">{{ currentdate }}</h2>
-    <ul class="related-posts">
-    {% assign date = currentdate %}
-  {% endif %}
-  {% include components/post-list-item.html post=post format=list_entry %}
-  {% if forloop.last %}</ul>{% endif %}
-{% endfor %}
-{% endcomment %}

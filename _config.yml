@@ -100,16 +100,16 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
-  - scope:
-      path:            ""
-      type:            "pages"
-    values:
-      layout:          "page"
-  - scope:
-      path:            ""
-      type:            "posts"
-    values:
-      layout:          "post"
+  #  - scope:
+  #    path:            ""
+  #    type:            "pages"
+  #  values:
+  #    layout:          "page"
+  #- scope:
+  #    path:            ""
+  #    type:            "posts"
+  #  values:
+  #    layout:          "post"
   - scope:
       path:            hyde
     values:
