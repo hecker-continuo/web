@@ -51,9 +51,16 @@ author:
 copyright:             >
   Alle Rechte vorbehalten.
 
-# Add links to the footer.
+# Add links to the sidebar.
 menu:
+  - title:             Aktuell
+    url:               /aktuell/
+  - title:             Impressum
+    href:              /impressum/
+  - title:             Datenschutz
+    url:               /datenschutz/
 
+# Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
 legal:
   - title:             Impressum
@@ -93,6 +100,16 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
+  #  - scope:
+  #    path:            ""
+  #    type:            "pages"
+  #  values:
+  #    layout:          "page"
+  #- scope:
+  #    path:            ""
+  #    type:            "posts"
+  #  values:
+  #    layout:          "post"
   - scope:
       path:            hyde
     values:
@@ -220,7 +237,7 @@ collections:
     output:            true
 
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /tag/:name/
     output:            true
 
   projects:
@@ -251,7 +268,7 @@ include:
 # ========================================================================================
 
 plugins:
-  - jekyll-default-layout
+#  - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
   - jekyll-paginate
@@ -339,4 +356,4 @@ compress_html:
     envs:              [development]
 
 sass:
-  style:               compressed
+#  style:               compressed

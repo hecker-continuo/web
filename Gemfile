@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem "jekyll"#, '~> 4.0.1'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -26,7 +26,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
-  gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master' # For 5.x
+  gem 'rails-i18n', git: 'https://github.com/svenfuchs/rails-i18n', branch: 'master' # For 5.x
   # gem 'jekyll-i18n-date', github: 'uwolf/jekyll-i18n-date' , branch: 'master' # For 5.x
 end
 

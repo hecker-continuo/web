@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/svenfuchs/rails-i18n.git
-  revision: 505e6ee2e588ee0e5c1136cb32899984bf0b0980
+  remote: https://github.com/svenfuchs/rails-i18n
+  revision: 26f1bd90c2cd9e7192fbf84d64a5415e6a2fc977
   branch: master
   specs:
     rails-i18n (6.0.0)

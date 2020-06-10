@@ -1,10 +1,11 @@
 ---
+layout: post
 title: "MAI.KLANG: Internet-Konzerte mit geistlichem Impuls"
 image: /assets/img/blog/mai-klang.png
 description: >
   MAI.KLANG – Musik aus Chemnitzer Kirchen ist eine Online-Konzertreihe der evangelischen Kirchgemeinden in der Region Chemnitz-Mitte
 categories: [musik]
-tags: [kirche, video, corona]
+tags: [musik, kirche, video, corona]
 ---
 
 Die Corona-Krise macht Konzerte unmöglich!? Nicht ganz, denn im Mai bieten die evangelischen Kirchgemeinden der Region Chemnitz-Mitte drei Online-Konzerte an. Am 2., 16. und 30. Mai 2020 wird, jeweils um 18.00 Uhr, unter dem Motto [„MAI.KLANG – Musik aus Chemnitzer Kirchen“](https://sps.kirchechemnitz.de/images/dynamic/aktuelles/2020/2020-05_Maiklang_-_Plakat.pdf) vielfältige Musik online zu erleben sein.
