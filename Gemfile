@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem 'rails-i18n', git: 'https://github.com/svenfuchs/rails-i18n', branch: 'master' # For 5.x
   # gem 'jekyll-i18n-date', github: 'uwolf/jekyll-i18n-date' , branch: 'master' # For 5.x
+  gem 'kramdown-parser-gfm'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
