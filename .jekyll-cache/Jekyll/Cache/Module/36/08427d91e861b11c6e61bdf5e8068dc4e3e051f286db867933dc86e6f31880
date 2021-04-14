@@ -1,0 +1,25 @@
+I"'
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">Alle Rechte vorbehalten.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/impressum/">Impressum</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/datenschutz/">Datenschutzbestimmungen</a>
+      
+    
+    </small></nav>
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.4</span></small></p>
+  <hr class="sr-only"/>
+</footer>
+
+:ET
