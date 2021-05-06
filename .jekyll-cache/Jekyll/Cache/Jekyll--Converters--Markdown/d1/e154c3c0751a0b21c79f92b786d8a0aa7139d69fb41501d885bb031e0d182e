@@ -1,0 +1,57 @@
+I"=<p>Endlich ist es soweit: Wer bis jetzt <a href="https://new.steinberg.net/dorico/">Dorico</a> als Notationsprogramm zwar toll fand, aber noch etwas vermisste, sollte dringend die neue Version 3.5, welche am 20. Mai 2020 veröffentlicht wurde, einem persönlichen Test unterziehen.</p>
+
+<p>Die neue Version wartet mit tollen <a href="https://new.steinberg.net/dorico/new-features/">Neuerungen</a> auf, wie z.B. <strong>Rhythmus nach Tonhöhe</strong> eingeben, ein erweiterter <strong>Editor für VST Expression Maps</strong>, das <strong>Condensing-Feature</strong>, was (schon seit 3.0) automatisch ein zusammengefasstes Layout für Dirigenten generiert und nun auch Divisi-Passagen einbezieht und ein <strong>Linien-Editor</strong> mit über 40 Voreinstellungen und individuellen Anpassungsmöglichkeiten.</p>
+
+<p>Nun gibt es die sogenannten <strong>Hollywood-style parts</strong>, also Sätze (Abschnitte), die nicht mit der letzten Note enden, sondern nach vorhandenem Platz auf der Seite mit leeren Notenzeilen aufgefüllt werden, was die Musik mehr handgeschrieben wirken lässt.</p>
+
+<p>Es kann außerdem (wichtig für Bläserensembles) das Programm <strong>innerhalb eines Satzes</strong> für denselben Spieler gleiche <strong>Instrumente unterschiedlicher Transposition/Schlüsselung</strong> beherrschen, was nochmal größere Flexibilität mit sich bringt.</p>
+
+<p>Nicht zu vergessen, dass nun für Partituren unterschiedliche Farbgestaltung möglich ist. Das erweitert sich auch auf die verschiedenen Modi des Programms. So lassen sich <strong>Farben / Farbverläufe</strong> für Schreib-/Notationsmodus festlegen, was mehr Orientierung ermöglicht und ihm einen persönlichen Charakter verleiht.</p>
+
+<p>Für mich als <strong>Gitarristen</strong> sind die tollen <strong>neuen Spieltechtniken</strong> für unterschiedliche Stile/Gitarren interessant. Auch die Akkordsymbol-Eingabe wird zum Kinderspiel.</p>
+
+<h3 id="generalbass">Generalbass</h3>
+
+<p class="figure"><img src="/assets/img/blog/dorico/Haendel_Sonate_D-Maj_HWV_271.png" alt="Original einer Händel-Sonate D-Dur HWV 271" width="1167" height="432" loading="lazy" />
+Original der Händel Sonate D-Dur HWV 271 2. Satz. Der Generalbass findet sich hier zwischen Melodie- und Bassstimme.</p>
+
+<p>Doch das Killerfeature von Dorico aus meiner ganz persönlichen Sicht ist Doricos lang ersehntes Verständnis für <strong>Generalbass</strong>.</p>
+
+<p>Das Zentrum meiner musikalischen Beschäftigung ist seit jeher die Musik des 17. und 18. Jahrhunderts. Die Musik dieser Zeit besteht zu einem Großteil aus Musik mit so genanntem „basso continuo“ also immerwährendem Bass (Generalbass). Notiert wird das ganze in einer Art Kurzschrift in Form von Zahlen unter der tiefsten Stimme, dem Bass. Die Zahlen stehen dabei für Akkorde, die die Musik begleiten und geben den Abstand in Tönen zu ihrem jeweiligen Basston wider. Diese Akkorde dienen einem informierten Spieler als Improvisationsgrundlage, die gepaart mit viel Sachkenntnis und Stilsicherheit die Musik, die sich <em>hinter</em> diesen Zahlen verbirgt, neu entstehen lässt.</p>
+
+<p>Dieses Noten-Zahlen-System ist sehr einfach und flexibel, kann aber besonders im 18. Jh. mit vielen Akkorden aus 3-4 Zahlen durchaus komplex werden. Die Zahlen sind im Generalbasssystem nicht willkürlich, sondern folgen ganz klaren Regeln, die aus der musikalischen Praxis des 17./18. Jahrhunderts entstanden sind. So bedingen bestimmte Zahlen meist andere, die hinzukommen, aber manchmal nicht notiert werden. Das Verständnis erfordert von Musikern jahrelange Erfahrung und Kenntnisse über Stile, historische Einordnung, aber auch hin und wieder ein gutes Bauchgefühl, wenn Ziffern weggelassen wurden, Harmonien unvollständig oder gar fehlerhaft sind.</p>
+
+<p class="figure"><img src="/assets/img/blog/dorico/dorico_3-5_haendel_sonate_dmaj_hwv_271.png" alt="Händel Sonate D-Dur HWV 271 in Dorico 3.5 mit basso continuo" data-width="800" data-height="1133" />
+Dieselbe Händel-Sonate D-Dur HWV 271 in Dorico umgesetzt mit Generalbasszahlen. Bei der Umsetzung der Händel-Sonate wurde bewusst auf jegliches Feintuning verzichtet. Das Layout wurde komplett automatisch erstellt.</p>
+
+<p>Bei der beschriebenen Sachlage stößt jedes Programm schnell an Grenzen, umso verwunderlicher ist, dass <strong>Dorico</strong> auf den ersten Blick keine Fehler macht, im Gegenteil sofort versteht, welcher Akkord gemeint ist. Man gibt beispielsweise <em>4</em> ein und ein <em>2, 4</em> erscheint, weil das Programm das erstens vermutet und zweitens am Kontext der anderen Stimmen ableiten kann. Das Programm notiert dabei entsprechend vorgegebener Einstellungungen für die unterschiedlichen Akkordarten. Beim Editieren kann man es gut erkennen:</p>
+
+<p class="figure"><img src="/assets/img/blog/dorico/dorico_3-5_generalbass1.png" alt="Eingabe Generalbass mittels Popover" data-width="617" data-height="347" />
+Bei Sekundakkorden wird die 6 automatisch ausgeblendet.</p>
+
+<p>Das Programm hat eine unsichtbare <em>6</em> notiert, was über die eckigen Klammern ausgedrückt wird. Das Löschen dieser Klammern macht die <em>6</em> sofort sichtbar und es erscheint der Akkord <em>2, 4, 6</em>.</p>
+
+<p>Wie beschrieben kann <strong>Dorico</strong> – entsprechend den anderen musikalischen Elementen – die Anzeige der Generalbasszahlen nicht nur einzeln, sondern nach bestimmten Kriterien verändern, wie z.B.</p>
+
+<p class="figure"><img src="/assets/img/blog/dorico/dorico_3-5_generalbass2.png" alt="Optionen Darstellung des Generalbass" data-width="565" data-height="373" />
+Dorico erkennt eine verminderte Quinte im Akkord und lässt sich sagen, wie es einen solchen Akkord darstellen soll.</p>
+
+<p>Es gibt hierfür 3 Ebenen: 1. die globale, 2. die stückbezogene und 3. die elementbezogene Ebene. Mit diesen Layern kann man jegliches Aussehen gut steuern.</p>
+
+<h3 id="persönliche-anpassungen">Persönliche Anpassungen</h3>
+
+<p>Häufiger Kritikpunkt an vielen gedruckten modernen Ausgaben mit Generalbassbezifferung ist, dass man die Zahlen wegen ihrer Größe schlicht und ergreifend schlecht bis gar nicht lesen kann. Doch hängt vom schnellen Erkennen der Zahlen für einen Generalbassspieler musikalisch so gut wie alles ab. Nicht nur richtige Töne sind das Produkt einer guten Lesbarkeit von Ziffern, sondern es ergibt sich durch einen stimmigen Gesamtnotensatz eine schnelle Erkenntnis der musikalischen Zusammenhänge.<br />
+Da Generalbassmusik einen hohen Prozentsatz improvisierter Elemente hat, sorgt also das gute, schnell lesbare Noten-/Zahlenbild für ein farbigeres und lebendigeres Musizieren eines informierten Generalbassspielers.</p>
+
+<p>In <strong>Dorico</strong> scheinen nach eigenem Empfinden die GB-Zahlen auch zu klein zu sein, was man aber leicht ändern kann:</p>
+
+<p class="figure"><img src="/assets/img/blog/dorico/dorico_3-5_schrift_aendern1.png" alt="Schriften ändern im Notensatz-Modus" data-width="658" data-height="142" />
+Generalbasszahlen mit größerer Schrift anzeigen (1).</p>
+
+<p class="figure"><img src="/assets/img/blog/dorico/dorico_3-5_schrift_aendern2.png" alt="Schriftgröße für Generalbass auf 23pts setzen" data-width="638" data-height="458" />
+Generalbasszahlen mit größerer Schrift anzeigen (2).</p>
+
+<h3 id="fazit-zur-generalbassfunktion">Fazit zur Generalbassfunktion</h3>
+
+<p>Für ein erstes Generalbass-Feature im Programm ist der Einstieg absolut gelungen. Allerdings gibt es durchaus Luft nach oben und Möglichkeiten aufzustocken. Hier wären aus meiner Sicht spezielle Notationsalgorythmen für frühe Musik (Dur immer als <em>#</em> / moll als <em>b</em> notiert) oder auch Notation nach länder- oder komponistenbasierten Vorlieben/Gegebenheiten denkbar.</p>
+:ET

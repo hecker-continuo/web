@@ -174,7 +174,7 @@ hydejack:
   no_drawer:           false
 
   # Set to `true` to prevent usage of `hy-img` (lazy-loading images).
-  no_img:              false
+  no_img:              true
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This *may* be benefitial when serving the site over HTTP/2.
@@ -267,7 +267,7 @@ include:
 # ========================================================================================
 
 plugins:
-#  - jekyll-default-layout
+  - jekyll-default-layout
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-optional-front-matter
@@ -332,14 +332,14 @@ titles_from_headings:
   strip_title:         true
   collections:         true
   
-replace_img:
-  re_img:              <img\s*(?<attrs>.*?)\s*/>
-  re_ignore:           (re|data)-ignore
-  replacement:         |
-    <hy-img root-margin="512px" %{attrs}>
-      <noscript><img data-ignore %{attrs}/></noscript>
-      <span slot="loading" class="loading"><span class="icon-cog"></span></span>
-    </hy-img>
+#replace_img:
+#  re_img:              <img\s*(?<attrs>.*?)\s*/>
+#  re_ignore:           (re|data)-ignore
+#  replacement:         |
+#    <hy-img root-margin="512px" %{attrs}>
+#      <noscript><img data-ignore %{attrs}/></noscript>
+#      <span slot="loading" class="loading"><span class="icon-cog"></span></span>
+#    </hy-img>
 
 kramdown:
   footnote_backlink:   '&#x21a9;&#xfe0e;'

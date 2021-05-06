@@ -22,7 +22,7 @@ Für mich als **Gitarristen** sind die tollen **neuen Spieltechtniken** für unt
 
 ### Generalbass
 
-![Original einer Händel-Sonate D-Dur HWV 271](/assets/img/blog/dorico/Haendel_Sonate_D-Maj_HWV_271.png){:data-width="1167" data-height="432"}
+![Original einer Händel-Sonate D-Dur HWV 271](/assets/img/blog/dorico/Haendel_Sonate_D-Maj_HWV_271.png){: width="1167" height="432" loading="lazy"}
 Original der Händel Sonate D-Dur HWV 271 2. Satz. Der Generalbass findet sich hier zwischen Melodie- und Bassstimme.
 {:.figure}
 
