@@ -1,4 +1,4 @@
-I"�+<p>The “Best Jekyll Theme by a Mile”.</p>
+I"�+<p>The “Best Jekyll Theme by a Mile”.</p>
 
 <p><img src="/assets/img/blog/hydejack-8.png" alt="Screenshot" />
 Hydejack’s cover page on a variety of screens.</p>
@@ -40,7 +40,7 @@ The Hydejack blog, as seen by the text browser <code class="language-plaintext h
 <h2 id="syntax-highlighting">Syntax Highlighting</h2>
 <p><strong>Hydejack</strong> features syntax highlighting, powered by <a href="http://rouge.jneen.net">Rouge</a>.</p>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="dl">"</span><span class="s2">hy-push-state</span><span class="dl">"</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">hy-push-state-load</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nf">getElementsByTagName</span><span class="p">(</span><span class="dl">"</span><span class="s2">hy-push-state</span><span class="dl">"</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">hy-push-state-load</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
   <span class="c1">// &lt;your init code&gt;</span>
 <span class="p">});</span>
 </code></pre></div></div>
@@ -85,7 +85,7 @@ $$ -->
   <li>Customizable sidebar and touch-enabled drawer menu, powered by <a href="https://qwtel.com/hy-drawer/">hy-drawer</a></li>
   <li>Lazy image loading with cancellation and placeholder, powered by <a href="https://qwtel.com/hy-img/">hy-img</a></li>
   <li>Advanced <abbr title="First-Last-Invert-Play. A coding technique to achieve performant page transition animations.">FLIP</abbr> animations, inspired by Material Design</li>
-  <li>99/100 <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhydejack.com%2F">Google PageSpeed Score</a><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">1</a></sup></li>
+  <li>99/100 <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhydejack.com%2F">Google PageSpeed Score</a><sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></li>
   <li><a href="#syntax-highlighting">Syntax highlighting</a>, powered by <a href="http://rouge.jneen.net">Rouge</a></li>
   <li><a href="hydejack/_posts/2018-06-01-example-content-iii.md#math">LaTeX math blocks</a>, powered by <a href="https://khan.github.io/KaTeX/">KaTeX</a></li>
   <li>Change the wording of built-in strings and possibly translate in other languages</li>
@@ -180,7 +180,7 @@ A <a href="https://hydejack.com/projects/">portfolio</a>, a <a href="https://hyd
       <td style="text-align: center">Included</td>
     </tr>
     <tr>
-      <td style="text-align: left">Support<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">2</a></sup></td>
+      <td style="text-align: left">Support<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></td>
       <td style="text-align: center">No</td>
       <td style="text-align: center">No</td>
     </tr>
@@ -199,10 +199,10 @@ A <a href="https://hydejack.com/projects/">portfolio</a>, a <a href="https://hyd
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:2" role="doc-endnote">
+    <li id="fn:2">
       <p>Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p>You MAY open an issue on GitHub, but no response and/or fix is guaranteed.
   You understand that using Jekyll requires technical know-how and is not comparable to Wordpress in terms of ease of use. Please use the free version to confirm that Hydejack works for you. For details, see the <a href="/licenses/PRO/">PRO</a> license. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>

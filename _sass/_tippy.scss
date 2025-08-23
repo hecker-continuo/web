@@ -1,6 +1,5 @@
-$namespace-prefix: 'tippy';
 
-@import "tippyjs/index";
+@use "tippyjs/index" with ($namespace-prefix: "tippy");
 
 [data-tippy-root] {
   --body-color: var(--inv-body-color);
